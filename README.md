@@ -62,5 +62,8 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
     - Compressed and resized mobilewebdev.jpg from 186KB to 46.5KB using http://compressimage.toolur.com/
     - Compressed and resized cam_be_like.jpg from 261KB to 64.4KB using http://compressimage.toolur.com/
     - Removed Web Fonts api
+    - added async property to all the js files
 2. pizza.html:
-    - Compressed and resized pizzeria from 2.1MB to 40.8KB using http://compressimage.toolur.com/
+    - Compressed and resized pizzeria from 2.1MB to 40.8KB using http://compressimage.toolur.com/\
+    - Inlined style.css with the html itself and deleted the file.
+    - added media="print" for print.css files reference
