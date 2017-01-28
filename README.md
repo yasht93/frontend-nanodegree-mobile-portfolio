@@ -57,7 +57,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 ### MY CHANGES:
 1. index.html:
-- inlined style.css with the html itself
-- added media="print" for print.css file
+    - inlined style.css with the html itself
+    - added media="print" for print.css file
 2. pizza.html:
-- Compressed and resized pizzeria image using http://compressimage.toolur.com/
+    - Compressed and resized pizzeria image using http://compressimage.toolur.com/
