@@ -55,7 +55,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
 
-*MY CHANGES:
+* MY CHANGES:
 1. index.html:
 - inlined style.css with the html itself
 - added media="print" for print.css file
