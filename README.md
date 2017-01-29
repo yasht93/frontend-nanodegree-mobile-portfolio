@@ -15,6 +15,7 @@ To get started, check out the repository and inspect the code.
     - Added `media="print"` for print.css files reference
     - Compressed and resized mobilewebdev.jpg from 186KB to 46.5KB using http://compressimage.toolur.com/
     - Compressed and resized cam_be_like.jpg from 261KB to 64.4KB using http://compressimage.toolur.com/
+    - Compressed and resized profilepic.jpg from 14.1KB to 1.38KB using http://compressimage.toolur.com/
     - Removed Web Fonts api
     - Added async property to all the .js files
 2. pizza.html:
