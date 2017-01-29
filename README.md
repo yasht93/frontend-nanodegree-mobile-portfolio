@@ -12,21 +12,21 @@ To get started, check out the repository and inspect the code.
 ### MY CHANGES:
 1. index.html:
     - Inlined style.css with the html itself and deleted the file. Did the same for the subsequent linked files.
-    - added `media="print"` for print.css files reference
+    - Added `media="print"` for print.css files reference
     - Compressed and resized mobilewebdev.jpg from 186KB to 46.5KB using http://compressimage.toolur.com/
     - Compressed and resized cam_be_like.jpg from 261KB to 64.4KB using http://compressimage.toolur.com/
     - Removed Web Fonts api
-    - added async property to all the js files
+    - Added async property to all the js files
 2. pizza.html:
     - Compressed and resized pizzeria from 2.1MB to 40.8KB using http://compressimage.toolur.com/
     - Inlined style.css with the html itself and deleted the file.
-    - added `media="print"` for print.css files reference
-    - changed number of pizzas to 40
-    - changed `dx`, `newwidth` and `pizzasDiv` declaration to outside the loop so that it does not execute everytime in the loop
-    - changed `querySelectorAll` to `getElementById` and `getElementsByClassName` to optimize fetching of elements
-    - modified loops in `updatePositions` function and loop for displaying number of pizzas to a decremental loop
-    - used `requestAnimationFrame` function to optimize paint
-    - changed movement of pizzas dependency on translation of page or scrolling
+    - Added `media="print"` for print.css files reference
+    - Changed number of pizzas to 40
+    - Changed `dx`, `newwidth` and `pizzasDiv` declaration to outside the loop so that it does not execute everytime in the loop
+    - Changed `querySelectorAll` to `getElementById` and `getElementsByClassName` to optimize fetching of elements
+    - Modified loops in `updatePositions` function and loop for displaying number of pizzas to a decremental loop
+    - Used `requestAnimationFrame` function to optimize paint
+    - Changed movement of pizzas dependency on translation of page or scrolling
 
 ### Getting started
 
