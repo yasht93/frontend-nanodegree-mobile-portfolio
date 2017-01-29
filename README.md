@@ -71,5 +71,5 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
     - changed `dx`, `newwidth` and `pizzasDiv` declaration to outside the loop so that it does not execute everytime in the loop
     - changed `querySelectorAll` to `getElementById` and `getElementsByClassName` to optimize fetching of elements
     - modified loops in `updatePositions` function and loop for displaying number of pizzas to a decremental loop
-    - used requestAnimationFrame function to optimize paint
+    - used `requestAnimationFrame` function to optimize paint
     - changed movement of pizzas dependency on translation of page or scrolling
