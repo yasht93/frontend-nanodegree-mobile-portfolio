@@ -7,10 +7,11 @@ To get started, check out the repository and inspect the code.
 ### Accessing the Website
 - Go to [this url](https://yasht93.github.io/frontend-nanodegree-mobile-portfolio/) or copy this url and paste it in your browser:
 `https://yasht93.github.io/frontend-nanodegree-mobile-portfolio/`
+
 ### MY CHANGES:
 1. index.html:
     - Inlined style.css with the html itself and deleted the file. Did the same for the subsequent linked files.
-    - added media="print" for print.css files reference
+    - added `media="print"` for print.css files reference
     - Compressed and resized mobilewebdev.jpg from 186KB to 46.5KB using http://compressimage.toolur.com/
     - Compressed and resized cam_be_like.jpg from 261KB to 64.4KB using http://compressimage.toolur.com/
     - Removed Web Fonts api
