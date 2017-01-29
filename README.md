@@ -5,7 +5,8 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 To get started, check out the repository and inspect the code.
 
 ### Accessing the Website
-- Go to [this url](https://yasht93.github.io/frontend-nanodegree-mobile-portfolio/) or copy this url and paste it in your browser:
+- Go to [this url](https://yasht93.github.io/frontend-nanodegree-mobile-portfolio/)
+- or copy this url and paste it in your browser:
 `https://yasht93.github.io/frontend-nanodegree-mobile-portfolio/`
 
 ### MY CHANGES:
