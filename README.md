@@ -66,10 +66,10 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 2. pizza.html:
     - Compressed and resized pizzeria from 2.1MB to 40.8KB using http://compressimage.toolur.com/
     - Inlined style.css with the html itself and deleted the file.
-    - added media="print" for print.css files reference
+    - added `media="print"` for print.css files reference
     - changed number of pizzas to 40
     - changed `dx`, `newwidth` and `pizzasDiv` declaration to outside the loop so that it does not execute everytime in the loop
     - changed `querySelectorAll` to `getElementById` and `getElementsByClassName` to optimize fetching of elements
     - modified loops in `updatePositions` function and loop for displaying number of pizzas to a decremental loop
-    -used requestAnimationFrame function to optimize paint
+    - used requestAnimationFrame function to optimize paint
     - changed movement of pizzas dependency on translation of page or scrolling
