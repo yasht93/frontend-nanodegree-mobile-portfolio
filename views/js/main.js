@@ -424,7 +424,7 @@ var resizePizzas = function(size) {
    // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
   function determineDx (elem, size) {
     var oldWidth = elem.offsetWidth;
-    var windowWidth = document.getElementsByClassName("randomPizzas").offsetWidth;
+    var windowWidth = document.getElementById("randomPizzas").offsetWidth;
     var oldSize = oldWidth / windowWidth;
 
     // Changes the slider value to a percent width
@@ -501,13 +501,12 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // Moves the sliding background pizzas based on scroll position
 function updatePositions() {
   frame++;
-  var scrollPos = window.scrollY;
   window.performance.mark("mark_start_frame");
   var items = document.getElementsByClassName('mover');
-  for (var i = items.length; i--;) {        //modified loop to a decremental loop
+  var scrollPos = window.scrollY;
+  for (i = items.length; i--;) {        //modified loop to a decremental loop
     var phase = Math.sin((scrollPos / 1250) + (i % 5));
-    var startLeft = items[i].basicLeft + 1000 * phase + 'px';
-    items[i].style.transform = "translateX(" +startLeft +") translateZ(0)";   //changed movement of pizzas dependency on translation of page or scrolling
+    items[i].style.transform = "translateX(" + 100 * phase + "px)";     //changed movement of pizzas dependency on translation of page or scrolling
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
@@ -535,7 +534,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
-    elem.basicLeft = (i % cols) * s;
+    elem.style.left = (i % cols) * s + 'px';
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     document.getElementById("movingPizzas1").appendChild(elem);
   }
